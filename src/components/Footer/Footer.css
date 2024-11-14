@@ -1,0 +1,8 @@
+footer {
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

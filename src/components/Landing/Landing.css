@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 850px;
+    padding-left: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.left h1 {
+    font-size: 60px;
+}
+
+.left p {
+    width: 45ch;
+}
+
+.left button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    cursor: pointer;
+}
+
+.right img {
+    position: absolute;
+}
+
+.right img:nth-child(1) {
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.right img:nth-child(2) {
+    top: -200px;
+    right: -200px;
+    z-index: -20;
+}

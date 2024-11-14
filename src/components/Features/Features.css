@@ -1,0 +1,29 @@
+.features p {
+    color: hsl(233, 8%, 62%);
+    width: 60ch;
+    margin-bottom: 20px;
+}
+
+.features .list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .list .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.features .list .card h3 {
+    margin: 10px 0;
+}
+
+.features .list .card p {
+    width: 30ch;
+}

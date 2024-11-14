@@ -1,0 +1,47 @@
+.articles .list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.articles .list .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.articles .list .card img {
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.articles .list .card h3 {
+    width: 30ch;
+    font-size: 15px;
+}
+
+.articles .list .card h4 {
+    width: 30ch;
+    font-weight: 500;
+}
+
+.articles .list .card p {
+    width: 25ch;
+    font-size: 16px;
+}
+
+.articles .list .card p,
+.articles .list .card h3,
+.articles .list .card h4 {
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
